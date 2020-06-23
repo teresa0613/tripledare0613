@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #80c1d6;
+}
+
+.bluesplash {
+  position:absolute;
+  top: -14rem; 
+  width:auto;
+  height:auto;
+  margin: 0;
+  padding: 0;
+}
+
+.greensplash {
+z-index: 100;
+width:auto;
+height:510px;
+display: flex;
+margin: auto auto auto;
+margin-top: 6rem;
+transform: rotate(0deg);
+}
+
+.navbar {
+  font-family: Atma;
+  font-size: 1rem;
+  background: rgba(133, 185, 93, 0.9);
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  height:60px;
+  
+}
+
+a {
+  color: white;
+  text-decoration:none;
+  display: block;
+  overflow: hidden;
+  transition: 1s;
+}
+
+a:hover {
+  transform: rotate(5deg) scale(1.8); 
+}
+
+li:hover:nth-child(even) a {
+  transform: rotate(-5deg) scale(1.8); 
+}
+
+li:last-child a {
+  font-weight:bold;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+  display:flex;
+  justify-content:space-between;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bangers";
+}
+
+h1 {
+  font-size: 4em;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+  color: var(--colorWhite);
+}
+
+.herotitle {
+  position:relative;
+}
+.hero {
+  text-align:center;
+  z-index: 100;
+  color:hsl(13, 99%, 60%);
+  text-shadow: 2px 2px white;
+  letter-spacing: 2.5px;
+  font-size:4.5em;
+}
+.parallax {
+  /* The image used */
+  background-image: url("img_parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+/* =================================================*/
+/* Team BLEU =======================================*/
+/* =================================================*/
+
+/* =================================================*/
+/* GLOBAL ====EX : NePH 17/06 16:45 ================*/
+/* =================================================*/
+
+/* VARIABLES ========== */
+
+/* COULEURS ============= */
+
+/* H1 ================= Neph */
+
+/* Nav ================= Teresa */
+
+/* 
+
+/* FOOTER ============ Cyril  */
+
+/* =================================================*/
+/* INDEX ===========================================*/
+/* =================================================*/
+
+/* mettre ici le code spécifique à la page */
+
+/* =================================================*/
+/* APPLY ===========================================*/
+/* =================================================*/
+
+/* mettre ici le code spécifique à la page */
+
+/* =================================================*/
+/* PRIZES ==========================================*/
+/* =================================================*/
+
+/* mettre ici le code spécifique à la page */
